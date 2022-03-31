@@ -27,6 +27,11 @@
 	border: 1px solid black;
 }
 
+.contenedor div:hover {
+	filter: brightness(200%);
+	cursor: pointer;
+}
+
 /*colores*/
 
 .white {
