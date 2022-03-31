@@ -18,7 +18,6 @@
 .contenedor {
 	background-color: palegreen;
 	display: flex;
-	
 }
 
 .contenedor div {
@@ -53,3 +52,29 @@
 .pink {
 	background-color: #DE77A8;
 }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=- Media queries =-=-=-=-=-=-=-=-=-=-=-=- */
+@media (max-width:1281px) {
+	.contenedor div {
+		width: 15px;
+		height: 15px;
+	}
+}
+
+@media (max-width:800px) {
+	.contenedor div {
+		width: 15px;
+		height: 15px;
+	}
+}
+
+@media (max-width:600px) {
+	h2 {
+		font-size: 16px;
+	}
+	.contenedor div {
+		width: 10px;
+		height: 10px;
+	}
+}
+
