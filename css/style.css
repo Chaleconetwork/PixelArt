@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'VT323', monospace;
+}
+
+.centralizar {
+	background-color: #09BCFA;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor {
+	background-color: palegreen;
+	display: flex;
+	
+}
+
+.contenedor div {
+	width: 25px;
+	height: 25px;
+	border: 1px solid black;
+}
+
+/*colores*/
+
+.white {
+	background-color: #FEFDFF;
+}
+
+.black {
+	background-color: #151E1A;
+}
+
+.blue {
+	background-color: #09BCFA;
+}
+
+.skyblue {
+	background-color: #07FBFF;
+}
+
+.pink {
+	background-color: #DE77A8;
+}
